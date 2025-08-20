@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editkaro.in — Portfolio</title>
+  <meta name="description" content="Editkaro.in portfolio: social media marketing & video editing agency. Shorts, long-form, gaming, sports, ads, docs, grading & anime."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">Editkaro<span>.in</span></div>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <h1 class="reveal">We Edit Stories, Not Just Videos.</h1>
+      <p class="reveal delay-1">Shorts, long-form, ads & cinematic edits for brands and creators.</p>
+      <a href="#portfolio" class="btn reveal delay-2">View Work</a>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section id="portfolio" class="portfolio-section container">
+    <div class="section-head">
+      <h2>Portfolio</h2>
+      <p>Browse by category or view all.</p>
+    </div>
+
+    <div class="filters" role="tablist" aria-label="Category filters">
+      <button class="filter-btn active" data-category="all" role="tab" aria-selected="true">All</button>
+      <button class="filter-btn" data-category="short" role="tab">Short-form</button>
+      <button class="filter-btn" data-category="long" role="tab">Long-form</button>
+      <button class="filter-btn" data-category="gaming" role="tab">Gaming</button>
+      <button class="filter-btn" data-category="football" role="tab">Football</button>
+      <button class="filter-btn" data-category="ads" role="tab">eCommerce Ads</button>
+      <button class="filter-btn" data-category="docu" role="tab">Documentary</button>
+      <button class="filter-btn" data-category="color" role="tab">Color Grading</button>
+      <button class="filter-btn" data-category="anime" role="tab">Anime</button>
+    </div>
+
+    <!-- Grid -->
+    <div class="grid" id="grid">
+      <!-- Card template: uses data-video for lightbox (YouTube embed URL) -->
+      <article class="card reveal" data-category="short" data-video="https://www.youtube.com/embed/O0ri7nQ2YoQ?si=gqH1vjgnvcbmj-B_">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Instagram Reel Edit</h3>
+        <p class="meta">Short-form • 0:30</p>
+      </article>
+
+      <article class="card reveal delay-1" data-category="long" data-video="https://www.youtube.com/embed/9bZkp7q19f0">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>YouTube Long-form Video</h3>
+        <p class="meta">Long-form • 4:12</p>
+      </article>
+
+      <article class="card reveal delay-2" data-category="gaming" data-video="https://www.youtube.com/embed/Aj41sjx7sSs">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Gaming Montage</h3>
+        <p class="meta">Gaming • 5:15</p>
+      </article>
+
+      <article class="card reveal" data-category="football" data-video="https://www.youtube.com/embed/sjtcN3MVgB8">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Football Highlight</h3>
+        <p class="meta">Football • 14:27</p>
+      </article>
+
+      <article class="card reveal delay-1" data-category="ads" data-video="https://www.youtube.com/embed/-i1TmqYL8wI">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>eCommerce Product Ad</h3>
+        <p class="meta">Ads • 1:36</p>
+      </article>
+
+      <article class="card reveal delay-2" data-category="docu" data-video="https://www.youtube.com/embed/Lx86N8KhA0A">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Documentary Style</h3>
+        <p class="meta">Doc • 5:48</p>
+      </article>
+
+      <article class="card reveal" data-category="color" data-video="https://www.youtube.com/embed/C0wJF1Iedew">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Color Grading Showcase</h3>
+        <p class="meta">Grading • Before/After</p>
+      </article>
+
+      <article class="card reveal delay-1" data-category="anime" data-video="https://www.youtube.com/embed/Sfq9sr7vwnk">
+        <div class="thumb">
+          <div class="ratio"></div>
+          <div class="play" aria-hidden="true">▶</div>
+        </div>
+        <h3>Anime AMV</h3>
+        <p class="meta">Anime • 3:07</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about container">
+    <div class="section-head">
+      <h2>About Editkaro.in</h2>
+      <p>Creative agency specializing in social media marketing and video editing. We turn raw footage into engaging stories that convert.</p>
+    </div>
+    <ul class="pill-list">
+      <li>Reels & Shorts</li>
+      <li>Long-form YouTube</li>
+      <li>Performance Ads</li>
+      <li>Sports & Gaming</li>
+      <li>Color Grading</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <div>
+        <h2>Let’s work together</h2>
+        <p>Have footage or an idea? We’ll craft the story.</p>
+      </div>
+      <a href="mailto:info@editkaro.in" class="btn">Email Us</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Editkaro.in • Designed & built by Soumik</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Video lightbox">
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close" data-close>×</button>
+      <iframe id="lightbox-iframe" src="" title="Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
